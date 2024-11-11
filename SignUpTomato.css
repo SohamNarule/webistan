@@ -1,0 +1,128 @@
+
+#Container{
+    position: absolute;
+    right: 35%;
+    left: auto;
+    top: 15%;
+width: 30%;
+height:350px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+} 
+#google{
+    width: 70%;
+    height: 30px;
+    position: absolute;
+    bottom: 22%;
+    left: 15%;
+    background-color: white;
+}
+#uiin{
+    width: 70%;
+    height: 30px;
+    position: absolute;
+    left: 15%;
+    top: 34%;
+}
+#passin{
+    width: 70%;
+    height: 30px;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+}
+
+#sign{
+    border: none;
+    position: absolute;
+    padding: 5px 50px;
+    bottom: 15%;    
+    margin-left: 15%;
+    color: white;
+    background-color: rgb(192, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+#sign:hover
+{
+    background-color: rgb(252, 80, 50);
+}
+#gole{
+    width: 20px;
+    position: absolute;
+    bottom: 16.2%;
+    left: 24%;
+}
+#brand{
+    font-size: 35px;
+    color: rgb(192, 51, 51);
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    text-decoration: none;
+}
+#line{
+    width: 80%;
+    position: absolute;
+    bottom: 36%;
+    left: 10%;
+}
+body{
+    background-color: rgba(255, 99, 71, 0.366);
+    background-image:url("image/bg.jfif");
+}
+#sign2{
+    border: none;
+    position: absolute;
+    padding: 5px 62.9px;
+    bottom: 5%;    
+    margin-left: 15%;
+    color: white;
+    background-color: rgb(192, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+#log{
+    border: none;
+    position: absolute;
+    padding: 5px 10.9px;
+    bottom: 10%;    
+    margin-left: 39%;
+    color: white;
+    background-color: rgb(192, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#sign2:hover{
+    background-color: rgb(252, 80, 50);
+}
+#log:hover{
+    background-color: rgb(252, 80, 50);
+}
+#fname{
+    width: 70%;
+    height: 30px;
+    top: 12%;
+    position: absolute;
+    left: 15%;
+}
+#lname{
+    width: 70%;
+    height: 30px;
+    position: absolute;
+    left: 15%;
+    top: 23%;
+}
+#conpass{
+    width: 70%;
+    height: 30px;
+    position: absolute;
+    left: 15%;
+    top: 60%;
+}

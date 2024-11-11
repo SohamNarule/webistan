@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to MySeat</title>
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body >
+    <div id="Container">
+        <a id="sign" href="Sign_In_google.html">Sign in with Google</a>
+        <img id="gole" src="google.png" alt="google.png">
+       
+         <input id="uiin" type="text" placeholder=" Email or phone">
+        <hr id="line">
+        <input id="passin" type="password" placeholder=" Password">
+        <a id="name" href="home.html">MySeat</a>
+        <a id="sign2" href="SignUpTomato.html">Create Account</a>
+        <button id="log" onclick="loginuser(event)">Login</button>
+        <a href="adminui.html" id="admin-login-click">admin login</a>
+    </div>
+    <script>
+        function loginuser(event){
+            event.preventDefault(); 
+    const email = document.getElementById('uiin').value;
+    const password = document.getElementById('passin').value;
+    if (email === "" || password === "") {
+        alert("Please fill in all fields.");
+        return;
+    }
+    const storedUser = localStorage.getItem(email);
+    if (storedUser) {
+        const user = JSON.parse(storedUser);
+        if (user.password === password) {
+            alert("Login successful!");
+            
+
+            window.location.href = "./MySeat.html";
+        } else {
+            alert("Incorrect password. Please try again.");
+        }
+    } else {
+        alert("No account found with this email. Please register.");
+    }
+        }
+    </script>
+</body>
+
+</html>

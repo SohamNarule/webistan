@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+   position: absolute;
+   top :15%;
+   right: 15%;
+   width: 70%;
+   bottom: 15%;
+   height: 410px;
+   background-color: white;
+   border-radius: 20px; 
+   color: black;
+}
+#fi{
+    position: absolute;
+    top: 10%;
+    right:10%;
+    padding: 11px 50px;
+    border-radius: 5px;
+}
+#li{
+    position: absolute;
+    top: 25%;
+    right:10%;
+    padding: 11px 50px;
+    border-radius: 5px;
+}   
+#pass1{
+    position: absolute;
+    top: 39%;
+    right:10%;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+#pass2{
+    position: absolute;
+    top: 52.7%;
+    right:10%;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+#cacc{
+    position: absolute;
+    bottom: 15%;
+    right:20%;
+    padding: 8px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-decoration: none;
+    color: #0b57d0;
+}
+#cacc:hover{
+    background-color: rgb(224, 219, 219);
+    text-decoration: none;
+
+}
+#log{
+    position: absolute;
+    bottom: 15%;
+    right:9%;
+    padding: 10px 17px;
+    background-color: #0b57d0;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+#fp{
+    position: absolute;
+    top: 47%;
+    right:24.9%;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #0b57d0;
+}
+#name{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 76px;
+}
+#a{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+#logo{
+    width: 50px;
+    height: auto;
+    margin-left: 30px;
+    position: absolute;
+    top: 6%;
+}
